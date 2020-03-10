@@ -29,7 +29,7 @@ describe("#whereCanIPark", () => {
     assert.isFalse(whereCanIPark(data,type));
   });
 
-  it("should return [3,5]", () => {
+  it("should return [3,1]", () => {
     const data =   [
       ['s', 's', 's', 's', 's', 's'],
       ['s', 'm', 's', 'S', 'r', 's'],
